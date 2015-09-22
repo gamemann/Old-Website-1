@@ -1,0 +1,202 @@
+.fcat {
+	background-image: url('images/catbg.png');
+	text-align: center;
+	font-family: "Impact", fantasy;
+	font-size: 250%;
+	font-weight: 300;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 15px 15px 0px 0px;
+	margin-top: 2%;
+}
+
+/* Forums */
+.forum {
+	background-image: url('images/fbg.png');
+	margin-left: 1%;
+	margin-right: 1%;
+	font-family: "Arial Black", Gadget;
+	border-left: 1px solid #33394E;
+	border-right: 1px solid #33394E;
+	border-bottom: 1px solid #33394E;
+	font-size: 180%;
+	padding: 15px 15px 15px 15px;
+	text-align: start;
+}
+
+.forum a:link {
+	color: #00FFEF;
+}
+
+.forum a:visited {
+	color: #00FFEF;
+}
+
+.forum a:active {
+	color: #00FFEF;
+}
+
+.forum a:hover {
+	color: #00FFEF;
+}
+
+.forum:hover {
+	background-image: url('images/fhbg.png');
+}
+
+.forum a {
+	text-decoration: none;
+}
+
+.forum_name {
+	float: left;
+}
+
+.forum_info {
+	float: center;
+	margin-left: 45%;
+}
+
+.forum_lp {
+	float: right;
+}
+
+/* Threads */
+.threads {
+	background-image: url('images/fbg.png');
+	margin-left: 1%;
+	margin-right: 1%;
+	font-family: "Arial Black", Gadget;
+	border-left: 1px solid #33394E;
+	border-right: 1px solid #33394E;
+	border-bottom: 1px solid #33394E;
+	font-size: 100%;
+	padding: 5px 5px 5px 5px;
+	text-align: start;
+}
+
+.threads a:link {
+	color: #00FFEF;
+}
+
+.threads a:visited {
+	color: #00FFEF;
+}
+
+.threads a:active {
+	color: #00FFEF;
+}
+
+.threads a:hover {
+	color: #00FFEF;
+}
+
+.threads:hover {
+	background-image: url('images/fhbg.png');
+}
+
+.threads a {
+	text-decoration: none;
+}
+
+.threads_name {
+	float: left;
+	font-size: 120%;
+	width: 25%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.threads_info {
+	float: center;
+	margin-left: 45%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 25%;
+	white-space: nowrap;
+}
+
+.threads_lp {
+	float: right;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 25%;
+	white-space: nowrap;
+}
+
+.thread {
+	margin-left: 1%;
+	margin-right: 1%;
+	height: auto;
+}
+
+.thread a {
+	text-decoration: none;
+}
+
+.thread_info {
+	background-image: url('images/catbg.png');
+	border-radius: 15px 15px 0px 0px;
+	overflow: hidden;
+	padding: 15px 15px 15px 15px;
+	//word-wrap: break-word;
+	font-size: 80%;
+	height: auto;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.thread_info_t {
+	font-size: 300%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: auto;
+	white-space: nowrap;
+}
+
+.thread_body {
+	background-image: url('images/fbg.png');
+	border-radius: 0px 0px 15px 15px;
+	overflow: hidden;
+	padding: 15px 15px 15px 15px;
+	text-align: start;
+	word-wrap: break-word;
+	height: auto;
+}
+
+.new_thread {
+	height: auto;
+	overflow: hidden;
+	margin-top: 2%;
+	width: 10%;
+	border-radius: 15px 15px 15px 15px;
+	padding: 5px 5px 5px 5px;
+	background-color: rgba(0, 255, 255, 0.16);
+	margin-left: 1%;
+}
+
+.new_thread a {
+	text-decoration: none;
+}
+
+.new_thread a:link {
+	color: red;
+}
+
+.new_thread a:visited {
+	color: red;
+}
+
+.new_thread a:active {
+	color: red;
+}
+
+.new_thread a:hover {
+	color: red;
+}
+
+.urls a {
+	color: #FF0000;
+	text-decoration: none;
+}

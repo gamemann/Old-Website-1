@@ -1,0 +1,6 @@
+Dear Counter-Strike: Global Offensive Developers,
+
+I would like to point out a serious bug on CS:GO. When you stand on a player's head, the force will push you out of the map. This is a very serious bug and needs to be patched as soon as possible.
+
+Thanks,
+Global Gamers INC.

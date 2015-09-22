@@ -1,0 +1,271 @@
+body {
+	color: #DAD1D1;
+	background-image: url('images/bg.jpg');
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+#navbar {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url('images/navbg.png');
+    border-radius:15px 15px 0px 0px;
+    padding:1px 1px 1px 1px;
+    box-shadow: 5px 5px 10px #121212;
+    height: auto;
+}
+
+#usercp a {
+	text-decoration: none;
+}
+
+#usercp a:visited {
+	color: #FF0000;
+}
+
+#usercp a:active {
+	color: #FF0000;
+}
+
+#usercp a:link {
+	color: #FF0000;
+}
+
+#usercp a:hover {
+	color: #4B4366;
+}
+
+nav {    
+  display: block;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+.nav ul {
+	background-image: url('images/dropdownbg.png');
+}
+
+.nav a {
+  display:block; 
+  
+  color: #fff; 
+  text-decoration: none;
+  padding: 0.8em 1.8em;
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 2px;
+  text-shadow: 0 -1px 0 #000;
+  position: relative;
+}
+.nav{  
+  vertical-align: top; 
+  display: inline-block;
+  box-shadow: 
+    1px -1px -1px 1px #000, 
+    -1px 1px -1px 1px #fff, 
+    0 0 6px 3px #fff;
+  border-radius:6px;
+}
+.nav li {
+  position: relative;
+}
+.nav > li { 
+  float: left; 
+  margin-right: 1px; 
+} 
+.nav > li > a { 
+  margin-bottom: 1px;
+
+}
+.nav > li:hover, 
+.nav > li:hover > a { 
+	background-image: url('images/navhoverbg.png');
+}
+.nav li:hover > a { 
+  color:orange; 
+}
+.nav > li:first-child { 
+} 
+.nav > li:first-child > a { 
+}
+.nav > li:last-child { 
+  margin-right: 0;
+} 
+.nav > li:last-child > a { 
+  border-radius: 0 4px 0 0;
+}
+.nav li li a { 
+  margin-top: 1px;
+}
+.nav li a:first-child:nth-last-child(2):before { 
+  content: ""; 
+  position: absolute; 
+  height: 0; 
+  width: 0; 
+  top: 50% ;
+  right:5px;  
+ }
+ /* submenu positioning*/
+.nav ul {
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  left: -99999em;
+}
+.nav > li:hover > ul {
+  left: auto;
+  //margin-top: 5px;
+  min-width: 100%;
+}
+.nav > li li:hover > ul { 
+  left: 100%;
+  //margin-left: 1px;
+  top: -1px;
+}
+/* arrow hover styling */
+.nav > li > a:first-child:nth-last-child(2):before { 
+}
+.nav > li:hover > a:first-child:nth-last-child(2):before {
+  margin-top:-5px
+}
+.nav li li > a:first-child:nth-last-child(2):before {  
+  margin-top: -5px
+}
+.nav li li:hover > a:first-child:nth-last-child(2):before {
+  right: 10px; 
+}
+
+#maincontent h1 {
+	text-align: center;
+}
+
+#maincontent p {
+	margin-left: 1%;
+}
+
+#maincontent {
+	width: auto;
+	word-wrap: break-word;
+	color: #00FFEF;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-image: url('images/bodybg.png');
+	padding:1px 1px 1px 1px;
+	border-radius:0px 0px 0px 0px;
+	box-shadow: 5px 5px 10px #121212;
+	text-align: center;
+}
+
+#forumcontent {
+	width: auto;
+	color: #00FFEF;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-image: url('images/bodybg.png');
+	padding:1px 1px 1px 1px;
+	border-radius:0px 0px 0px 0px;
+	box-shadow: 5px 5px 10px #121212;
+	text-align: center;
+}
+
+#sfooter {
+	width: auto;
+	word-wrap: break-word;
+	color: #00FFEF;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-image: url('images/footerbg.png');
+	padding:1px 1px 1px 1px;
+	border-radius:0px 0px 15px 15px;
+	box-shadow: 5px 5px 10px #121212;
+	font-size: 65%;
+	text-align: center;
+}
+
+.newsa {
+	background-image: url('images/newsbg.png');
+	margin-left: 25%;
+	margin-right: 25%;
+	word-wrap: break-word;
+	border-radius:15px 15px 15px 15px;
+	padding: 1px 1px 1px 1px;
+
+}
+
+.newsa a {
+	text-decoration: none;
+}
+
+.newsa h2 {
+	text-align: center;
+}
+
+.newsa:hover {
+	background-image: url('images/newshbg.png');
+}
+
+.newsa p {
+	margin-left: 5%;
+}
+
+#usercp {
+	float: right;
+}
+
+input, select, textarea {
+	background-color: #0D0057;
+	border: 0px;
+	padding: 1px 1px 1px 1px;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 1px;
+	color: #40FF00;
+}
+
+/* BBCodes */
+
+/* Code */
+.bbcode_code {
+	background-color: rgba(152, 152, 152, 0.5);
+	color: #FCFCFC;
+	padding: 5px 5px 5px 5px;
+	word-wrap: break-word;
+	border: 1px solid black;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	text-align: start;
+	overflow: hidden;
+}
+
+.bbcode_code span {
+	margin-left: 1%;
+	overflow: hidden;
+}
+
+/* Quote */
+.bbcode_quote {
+	background-color: rgba(48, 48, 48, 0.5);
+	color: #B9B9B9;
+	padding: 5px 5px 5px 5px;
+	word-wrap: break-word;
+	border: 1px solid black;
+	text-align: start;
+	overflow: hidden;
+}
+
+.bbcode_quote span {
+	margin-left: 0%;
+	overflow: hidden;
+}
+
+.images img {
+	height: inherit;
+	width: 100%;
+}
